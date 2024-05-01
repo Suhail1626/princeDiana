@@ -21,8 +21,8 @@ API_HASH = os.environ.get("API_HASH", "")
 
 OWNER = os.environ.get("OWNER", "") #Owner username
 OWNER_ID = int(os.environ.get("OWNER_ID", "")) #Owner user id
-DB_URL = os.environ.get("DB_URL", "")
-DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
+DATABASE_URL = os.environ.get("DB_URL", "")
+DATABASE_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
