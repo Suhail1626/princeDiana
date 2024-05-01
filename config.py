@@ -49,7 +49,7 @@ except ValueError:
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<code>{caption}</code>\n\n✍️ <a href='https://telegra.ph/Muxed-English-Subtit-04-23'><b>Muxed Subtitles</b></a> ✍️\n\n<a href='https://t.me/KDCOngoingDramas'><b>Ongoing</b></a><b> | </b><a href='https://t.me/+e0ELyn5Yt4YzN2U1'><b>Index</b></a><b> | </b><a href='https://t.me/kdramacomplexGroup'><b>Group</b></a>")
 
 #set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
